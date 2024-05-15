@@ -11,14 +11,14 @@ body {
   min-height: 100vh;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: 200px 100px 200px;
+}
+
 .box {
   background-color: #000;
   color: #fff;
   font-size: 2rem;
-  padding: 0.5rem;
+  padding: 1rem;
 }
-
-
-
-
-

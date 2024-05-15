@@ -12,23 +12,56 @@ body {
   min-height: 200vh;
 }
 
-.outer-container {
-  border: 3px dashed #000;
-  width: 75vw;
-  height: 85vh;
-  margin: 40px auto;
+html {
+  scroll-behavior: smooth;
 }
 
-.inner-container {
-  border: 2px solid #00f;
-  width: 40vw;
-  height: 50vh;
-  margin: 200px auto;
+section {
+  height: 100vh;
 }
 
-.box {
-  width: 150px;
-  height: 150px;
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+
+header,
+footer {
   color: #fff;
+  text-align: center;
+  height: 100px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  font-size: 5rem;
+}
+
+footer {
+  background-color: #000;
+  position: sticky;
+  bottom: 0;
+  font-size: 3rem;
+}
+
+a:visited {
+  color: white;
+}
+
+.social {
+  background-color: royalblue;
+  color: white;
+  font-size: inherit;
   padding: 1rem;
+  position: fixed;
+  top: 30%;
+  left: 0;
+  z-index: 1;
 }
